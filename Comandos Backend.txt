@@ -13,3 +13,5 @@ npm install express --save
 npm install cors
 
 vue create [nombre de la aplicación]
+
+$ npm i morgan
