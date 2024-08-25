@@ -1,3 +1,9 @@
+git reset HEAD~ --soft (Este comando es como un ctrl+z de los commits)
+git reset 'HEAD@{1}' (Este comando es coo un ctrl+y de los commits)
+git push origin/<nombre-rama> -f (Sube los cambios forzados)
+
+Aplicattion VUE
+
 npm install -g @vue/cli
 
 npm init
