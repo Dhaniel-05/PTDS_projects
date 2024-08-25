@@ -1,0 +1,9 @@
+npm install -g @vue/cli
+
+npm init
+
+npm install express --save
+
+npm install cors
+
+vue create [nombre de la aplicación]
