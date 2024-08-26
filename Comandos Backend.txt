@@ -2,16 +2,15 @@ git reset HEAD~ --soft (Este comando es como un ctrl+z de los commits)
 git reset 'HEAD@{1}' (Este comando es coo un ctrl+y de los commits)
 git push origin/<nombre-rama> -f (Sube los cambios forzados)
 
-Aplicattion VUE
-
-npm install -g @vue/cli
 
 npm init
 
-npm install express --save
+npm install -S express sequelize @sequelize/postgres cors
 
-npm install cors
+npm i -S body-parser cookie-parser cors express-validator
 
-vue create [nombre de la aplicación]
+npm i -S jsonwebtoken bcrypt
 
-$ npm i morgan
+npm i -D typescript @types/bcrypt @types/body-parser @types/cookie-parser @types/cors @types/es6-promise @types/express @types/express-validator @types/jsonwebtoken @types/node @types/sequelize
+
+npm i -g npx
