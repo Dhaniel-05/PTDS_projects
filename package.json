@@ -14,8 +14,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-   "tsc": "npx tsc -w",
-    "dev": "node dist/index.js"
+    "tsc": "npx tsc -w",
+    "dev": "nodemon dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -39,6 +39,7 @@
     "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^22.5.0",
     "@types/sequelize": "^4.28.20",
+    "nodemon": "^3.1.4",
     "typescript": "^5.5.4"
   }
 }
